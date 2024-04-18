@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        header{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 100%;
+            width: 100%;
+            margin: auto;
+        }
+
+        .masai_nav_parent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0px;
+            flex-grow: 1;
+        }
+
+        .main_content_div {
+            display: flex;
+            gap: 30px;
+        }
+        .main_content_div>span{
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .main_button_div{
+            display: flex;
+            gap: 10px;
+        }
+        .main_button_div>button:nth-of-type(1) {
+            padding: 20px 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #e5feff;
+            color: #7c81d1;
+            font-family: "Open Sans", sans-serif;
+            font-weight:600 ;
+        }
+
+        .main_button_div>button:nth-of-type(2) {
+            padding: 10px 25px;
+            border: solid red 1px;
+            border-radius: 10px;
+            background-color: white;
+            color:red;
+            font-weight:600 ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <nav class="masai_nav_parent">
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="masai_logo">
+                <div class="main_content_div">
+                    <span>IIT COURSES</span>
+                    <span>COURSES</span>
+                    <span>EVENTS</span>
+                    <span>FEES</span>
+                    <span>LEARN</span>
+                    <span>SUCCESS STORIES</span>
+                    <span>HIRE FROM US</span>
+                </div>
+                <div class="main_button_div">
+                    <button>REFER & EARN</button>
+                    <button>SIGN UP</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
